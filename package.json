@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@momotrq94/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide is a mini lodash clone made for learning during LHL's April 2022 bootcamp",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/momotrq94/lotide.git"
   },
-  "author": "",
+  "author": "Muhammed Tariq (momotrq94)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/momotrq94/lotide/issues"
