@@ -15,3 +15,4 @@ const middle = function(array1) {
   return outputArray;
 };
 
+module.exports = middle;
