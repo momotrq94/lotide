@@ -1,7 +1,7 @@
 const tail = require('../tail');
 const assert = require('chai').assert;
 
-describe("#head", () => {
+describe("#tail", () => {
   it("returns [2, 3] for [1, 2, 3]", () => {
     let result = tail([1,2,3]);
     assert.strictEqual(result[0],2);
