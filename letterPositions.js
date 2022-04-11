@@ -13,6 +13,8 @@ const letterPositions = function(sentence) {
   return results;
 };
 
-let tester = "lighthouse in the house";
+module.exports = letterPositions;
 
-console.log(letterPositions(tester));
+// let tester = "lighthouse in the house";
+
+// console.log(letterPositions(tester));
