@@ -14,3 +14,5 @@ const without = function(source,itemsToRemove){
   }
 return outputArray;
 }
+
+module.exports = without;
