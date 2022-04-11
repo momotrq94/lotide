@@ -1,11 +1,3 @@
-const assertEqual = function(actual, expected) {
-  if (actual === expected) {
-    console.log(`🟢🟢🟢Assertion Passed: ${actual} === ${expected}`);
-  } else {
-    console.log(`🔴🔴🔴Assertion Failed: ${actual} !== ${expected}`);
-  }
-};
-
 const countLetters = function(string){
   let outputObj = {};
   //first manipulate string to remove spaces and convert all to lowercase.
@@ -22,8 +14,10 @@ const countLetters = function(string){
   return outputObj;
 }
 
+module.exports = countLetters;
 
 
-result = countLetters("Ha ha hA ha h");
-assertEqual(result["h"],5);
-assertEqual(result["a"],4);
+
+// result = countLetters("Ha ha hA ha h");
+// assertEqual(result["h"],5);
+// assertEqual(result["a"],4);
